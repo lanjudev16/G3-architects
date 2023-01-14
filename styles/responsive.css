@@ -1,6 +1,8 @@
 @media screen and (max-width:576px) {
+
     .container {
         width: 100%;
+        overflow-x: hidden;
     }
 
     .menu {
@@ -18,8 +20,12 @@
         align-items: center;
     }
 
+    .quick-list-left-container img {
+        padding: 0px;
+    }
+
     .quick-imag {
-        padding: 0px 10px;
+        margin: 0 auto;
     }
 
 }
