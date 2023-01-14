@@ -1,0 +1,21 @@
+@media screen and (max-width:576px) {
+    .container {
+        width: 100%;
+    }
+
+    .menu {
+        flex-direction: column;
+    }
+
+    .nav-item {
+        flex-direction: column;
+    }
+
+    /* quick list section */
+    .quick-list-container,
+    .quick-list-left-container {
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+    }
+
+}
