@@ -103,7 +103,7 @@
     }
 
     .features-love-item {
-        width: 70vh;
+        width: 40vh;
         border-radius: 5px;
         text-align: center;
         margin: 0 auto;
@@ -112,7 +112,7 @@
     }
 
     .features-love-right {
-        margin: 0px 44px;
+        margin: 0px auto;
     }
 
     .ex-btn {
