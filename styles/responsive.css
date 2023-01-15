@@ -33,4 +33,26 @@
         grid-template-columns: 1fr;
     }
 
+    /* some fact responsive */
+    .sponspors-description {
+        width: 37vh;
+    }
+
+    .some-fact-item-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .our-sponspors-logo {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+    }
+
+    .sponspors-log-img img {
+        height: 50px;
+        width: 150px;
+    }
+
+    .sponspors-log-img {
+        text-align: center;
+    }
 }
