@@ -28,4 +28,9 @@
         margin: 0 auto;
     }
 
+    /* features love section responsive */
+    .features-love {
+        grid-template-columns: 1fr;
+    }
+
 }

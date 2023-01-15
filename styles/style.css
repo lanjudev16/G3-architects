@@ -4,6 +4,11 @@
 }
 
 /* common css or utilities */
+img {
+    width: 100%;
+    height: 100%;
+}
+
 body {
     font-family: 'Work Sans', sans-serif;
 }
@@ -103,8 +108,17 @@ section.brand-section {
     grid-template-columns: repeat(2, 1fr);
 }
 
+.quick-imag {
+    margin: 24px 24px;
+}
+
 .quick-list-left-container img {
-    padding: 24px;
+    height: 100%;
+    width: 100%;
+}
+
+.quick-list-right {
+    margin-left: 50px;
 }
 
 .quick-right-title {
@@ -123,4 +137,77 @@ section.brand-section {
 .quick-list-right .btn-primary {
     text-align: left;
     margin: 30px 0px 0px;
+}
+
+/* features love section style */
+.features-love {
+    display: grid;
+    grid-template-columns: 6fr 8fr;
+    grid-column-gap: 53px;
+}
+
+.features-love-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    border-left: 5px solid #FF900E;
+    padding-left: 15px;
+}
+
+
+.features-love-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin: 24px 0px 30px;
+}
+
+.features-love-item {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.features-love-item-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+    margin-bottom: 10px;
+}
+
+.features-love-item-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+/* button style */
+.features-love-right {
+    position: relative;
+}
+
+button.ex-btn {
+    position: absolute;
+    bottom: 0;
+    left: -38px;
+}
+
+.ex-btn {
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #FF900E;
+    border-radius: 8px;
+    border: none;
+    padding: 46px;
+}
+
+.ex-btn span {
+    font-weight: 700;
+    font-size: 65px;
+    text-align: center;
+    color: #FFFFFF;
 }
