@@ -103,7 +103,7 @@
     }
 
     .features-love-item {
-        width: 30vh;
+        width: 70vh;
         border-radius: 5px;
         text-align: center;
         margin: 0 auto;
@@ -154,6 +154,15 @@
     .some-fact-title {
         font-size: 30px;
         margin-bottom: 15px;
+    }
+
+    /* team section responsive */
+    .our-team-member {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .team-image {
+        /* margin: 0px 26px; */
     }
 
     /* sponspors  responsive css   */

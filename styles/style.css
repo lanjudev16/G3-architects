@@ -290,6 +290,24 @@ button.ex-btn {
     color: #FFFFFF;
 }
 
+.our-team-member {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 50px;
+}
+
+section.team-section {
+    margin-bottom: 50px;
+}
+
+/* team section additional */
+h2.team-title {
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 45px;
+    font-weight: 600;
+}
+
 /* our sponsor logo  */
 .our-sponspors {
     margin-bottom: 110px;
