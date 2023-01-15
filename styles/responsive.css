@@ -1,8 +1,25 @@
 @media screen and (max-width:576px) {
 
+    /* common css */
+    .btn-primary {
+        font-size: 18px;
+        width: 150px;
+        height: 50px;
+        margin: 28px auto 0px;
+    }
+
     .container {
         width: 100%;
-        overflow-x: hidden;
+        overflow: hidden;
+    }
+
+    /* header and nav responsive style */
+    .header {
+        padding: 50px 0px 35px;
+    }
+
+    .header-logo {
+        font-size: 25px;
     }
 
     .menu {
@@ -13,11 +30,35 @@
         flex-direction: column;
     }
 
+    .nav-item a {
+        display: inline-block;
+        font-size: 19px;
+        margin-top: 12px;
+    }
+
+    section.brand-section {
+        padding-top: 50px;
+    }
+
+    .brand-title {
+        font-weight: 700;
+        font-size: 35px;
+        padding-bottom: 32px;
+    }
+
+    .brand-description {
+        font-size: 18px;
+    }
+
     /* quick list section */
     .quick-list-container,
     .quick-list-left-container {
         grid-template-columns: repeat(1, 1fr);
         align-items: center;
+    }
+
+    .quick-list-container {
+        padding: 35px 0px 15px;
     }
 
     .quick-list-left-container img {
@@ -28,12 +69,102 @@
         margin: 0 auto;
     }
 
+    .quick-list-right {
+        text-align: center;
+        margin: 35px 0px;
+    }
+
+    .quick-right-title {
+        font-size: 34px;
+    }
+
+    .quick-right-description {
+        margin-bottom: 32px;
+    }
+
+    .quick-list-right .btn-primary {
+        margin: 0 auto;
+    }
+
     /* features love section responsive */
     .features-love {
         grid-template-columns: 1fr;
     }
 
+    .features-love-title {
+        font-size: 26px;
+        text-align: center;
+        border-left: none;
+    }
+
+    .features-love-description {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .features-love-item {
+        width: 30vh;
+        border-radius: 5px;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 50px;
+        background: #e7edeb;
+    }
+
+    .features-love-right {
+        margin: 0px 44px;
+    }
+
+    .ex-btn {
+        font-size: 15px;
+        padding: 15px 50px;
+    }
+
+    .ex-btn span {
+        font-size: 18px;
+    }
+
+    button.ex-btn {
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
     /* some fact responsive */
+    .some-fact {
+        margin: 45px 0px 45px;
+    }
+
+    .some-fact-top {
+        text-align: center;
+        width: 100%;
+    }
+
+    .some-fact-item {
+        margin: 30px 50px;
+    }
+
+    .some-fact-item-title {
+        font-size: 25px;
+    }
+
+    .some-fact-item-description {
+        font-size: 15px;
+    }
+
+    .some-fact-title {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+    /* sponspors  responsive css   */
+    .our-sponspors {
+        margin-bottom: 40px;
+    }
+
+    .sponspors-title {
+        font-size: 30px;
+    }
+
     .sponspors-description {
         width: 37vh;
     }
@@ -47,6 +178,10 @@
         grid-gap: 30px;
     }
 
+    .sponspors-log-img {
+        padding: 10px;
+    }
+
     .sponspors-log-img img {
         height: 50px;
         width: 150px;
@@ -54,5 +189,14 @@
 
     .sponspors-log-img {
         text-align: center;
+    }
+
+    .our-sponspors {
+        margin-bottom: 40px;
+    }
+
+    /* footer responsive */
+    .footer p {
+        font-size: 17px;
     }
 }

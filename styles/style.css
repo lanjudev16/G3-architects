@@ -26,7 +26,8 @@ body {
     background-color: #FF900E;
     border: none;
     border-radius: 5px;
-    padding: 20px 25px;
+    width: 180px;
+    height: 64px;
     display: block;
     margin: 32px auto 0px;
 }
@@ -43,7 +44,14 @@ body {
 /* header menu styling */
 .header {
     background: rgba(255, 144, 14, 0.1);
-    padding: 63px 0px;
+    padding: 50px 0px 42px;
+}
+
+.header-logo {
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+    color: #131313;
 }
 
 .menu {
@@ -76,7 +84,7 @@ section.brand-section {
     font-size: 64px;
     color: #131313;
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 33px;
 }
 
 .brand-description {
@@ -88,7 +96,7 @@ section.brand-section {
 
 /* brand new bottom img */
 .brand-new-bottom-img {
-    margin-top: 50px;
+    margin-top: 33px;
 }
 
 .brand-new-bottom-img img {
@@ -106,10 +114,7 @@ section.brand-section {
 .quick-list-left-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-}
-
-.quick-imag {
-    margin: 24px 24px;
+    grid-gap: 24px;
 }
 
 .quick-list-left-container img {
@@ -122,10 +127,10 @@ section.brand-section {
 }
 
 .quick-right-title {
-    font-weight: 500;
+    padding-bottom: 24px;
+    font-weight: 700;
     font-size: 45px;
     color: #131313;
-    padding-bottom: 24px;
 }
 
 .quick-right-description {
@@ -135,7 +140,6 @@ section.brand-section {
 }
 
 .quick-list-right .btn-primary {
-    text-align: left;
     margin: 30px 0px 0px;
 }
 
@@ -214,7 +218,7 @@ button.ex-btn {
 
 /* some fact item */
 .some-fact {
-    margin: 100px 0px 180px;
+    margin: 70px 0px 110px;
 }
 
 .some-fact-top {
@@ -288,7 +292,7 @@ button.ex-btn {
 
 /* our sponsor logo  */
 .our-sponspors {
-    margin-bottom: 130px;
+    margin-bottom: 110px;
 }
 
 .our-sponspors-contetn {
@@ -323,4 +327,18 @@ button.ex-btn {
 .our-sponspors-img img {
     width: 150px;
     height: 50px;
+}
+
+/* footer style */
+.footer {
+    background: #FFF4E7;
+    border-radius: 8px;
+    padding: 39px 0px;
+}
+
+.footer p {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #424242;
 }
